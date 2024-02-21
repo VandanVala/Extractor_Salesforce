@@ -71,7 +71,7 @@ class ExtractorOfSalesforce:
             else :
                 print(f'No Data available to inserted in {table_name} table')
                     
-
+# start from here
 initial_load = True
 es = ExtractorOfSalesforce()
 es.sync_salesforce_data("account", initial_load)
