@@ -3,6 +3,7 @@ from sqlalchemy import create_engine
 from ConnectorOfSalesforce import ConnectorOfSalesforce
 from SchemasOfSalesforce import SchemasOfSalesforce
 import json
+# comment
 
 class ExtractorOfSalesforce:
     _connection = None
