@@ -1,0 +1,21 @@
+SELECT
+    Contact_Id,
+	Account_Id,
+	Owner_Id,
+	Name,
+	Salutation,
+	Phone,
+	Fax,
+	MobilePhone,
+	Email,
+	Title,
+	Department,
+	LeadSource,
+	Birthdate,
+	Description,
+	CreatedDate,
+	LastModifiedDate,
+	Level__c,
+	Languages,
+	Street
+FROM {{source('Salesforce','contact')}}

@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: Salesforce
+    database: Salesforce
+    schema: public
+    tables:
+      - name: account
+      - name: opportunity
+      - name: lead
+      - name: user
+      - name: old_case
+      - name: old_contact
+      - name: campaign
+      - name: case
+      - name: contact
